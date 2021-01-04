@@ -55,12 +55,11 @@
 
                                     foreach($list_items as $item)
                                     {
-                                        echo '<li class="list-group-item"><span data-filter-tags="'	. $item["tags"] . '">'
-                                        . $item["title"]
-                                        . '</span></li>';
+                                        echo '<li class="list-group-item"><span data-filter-tags="'.$item["tags"].'">'
+                                        .$item["title"].'</span></li>';
                                     }
                                     ?>
-                                    
+
                                     </ul>
                                     <div class="filter-message js-filter-message mt-0 fs-sm"></div>
                                 </div>
