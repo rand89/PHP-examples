@@ -81,10 +81,10 @@
                                     {
                                         $twitter_name = substr($person['twitter_link'], strpos($person['twitter_link'], "@"));
                                         $short_name = explode(" ", $person['name'])[0];
-                                        if($person['banned'] == 1) $ban = "banned ";
-                                        else $ban = "";
+                                        if($person['banned'] == 1) $status = "banned ";
+                                        else $status = "";
 
-                                        echo "<div class=\"".$ban."rounded-pill bg-white shadow-sm p-2 border-faded mr-3 d-flex flex-row align-items-center justify-content-center flex-shrink-0\">
+                                        echo "<div class=\"".$status."rounded-pill bg-white shadow-sm p-2 border-faded mr-3 d-flex flex-row align-items-center justify-content-center flex-shrink-0\">
                                         <img src=\"".$person['img_link']."\" alt=\"".$person['name']."\" class=\"img-thumbnail img-responsive rounded-circle\" style=\"width:5rem; height: 5rem;\">
                                         <div class=\"ml-2 mr-3\">
                                         <h5 class=\"m-0\">".$person['name']." (".$person['specialization'].")<small class=\"m-0 fw-300\">".$person['post']."</small></h5>
