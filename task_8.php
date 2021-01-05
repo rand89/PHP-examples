@@ -60,7 +60,7 @@
                                                 <td>".$user['first_name']."</td>
                                                 <td>".$user['last_name']."</td>
                                                 <td>".$user['user_name']."</td>
-                                                <td><a href=\"show.php?id=".$user['id']."\" class=\"btn btn-info\">Редактировать</a>
+                                                <td><a href=\"show.php?id=".$user['id']."\" class=\"btn btn-info\">Просмотреть</a>
                                                 <a href=\"edit.php?id=".$user['id']."\" class=\"btn btn-warning\">Изменить</a>
                                                 <a href=\"delete.php?id=".$user['id']."\" class=\"btn btn-danger\">Удалить</a></td></tr>";
                                             }
